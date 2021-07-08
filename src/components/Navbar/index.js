@@ -12,7 +12,7 @@ function Nav() {
         bg="white"
         variant="light"
       >
-        <ReactBootstrap.Navbar.Brand href="/services">
+        <ReactBootstrap.Navbar.Brand href="/">
           <img
             alt=""
             src={process.env.PUBLIC_URL + "/images/logo.png"}

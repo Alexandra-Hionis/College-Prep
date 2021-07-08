@@ -6,37 +6,64 @@ const FooterPage = () => {
   return (
     <MDBFooter className="font-small pt-4 mt-4 footer">
       <MDBContainer fluid className="text-center text-md-left">
-        <MDBRow>
-          <MDBCol md="6">
-            <h5 className="title">Footer Content</h5>
-            <p>
-              Here you can use rows and columns here to organize your footer
-              content.
-            </p>
-          </MDBCol>
-          <MDBCol md="6">
-            <h5 className="title">Links</h5>
-            <ul>
-              <li className="list-unstyled">
-                <a href="#!">Link 1</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Link 2</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Link 3</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Link 4</a>
-              </li>
-            </ul>
-          </MDBCol>
-        </MDBRow>
+        <div>
+          <MDBRow>
+            <MDBCol md="4">
+              <div className="bottom-welcome-icons">
+                <div>
+                  <img
+                    alt=""
+                    src={process.env.PUBLIC_URL + "/images/grad-cap.png"}
+                    width="60px"
+                    height="60px"
+                    className="d-inline-block align-top"
+                  />
+                </div>
+
+                <p>
+                  I help highschool graduates, university graduates and adults
+                  of all ages succeed.
+                </p>
+              </div>
+            </MDBCol>
+            <MDBCol md="4">
+              <div className="bottom-welcome-icons">
+                <img
+                  alt=""
+                  src={process.env.PUBLIC_URL + "/images/resume.png"}
+                  width="60px"
+                  height="60px"
+                  className="d-inline-block align-top"
+                />
+
+                <p>
+                  I offer an array of college prep and career counseling
+                  services.
+                </p>
+              </div>
+            </MDBCol>
+            <MDBCol md="4">
+              <div className="bottom-welcome-icons">
+                <div>
+                  <img
+                    alt=""
+                    src={process.env.PUBLIC_URL + "/images/rocketship.png"}
+                    width="60px"
+                    height="60px"
+                    className="d-inline-block align-top"
+                  />
+                </div>
+
+                <p>Help youself or your child succeed! </p>
+              </div>
+            </MDBCol>
+          </MDBRow>
+        </div>
       </MDBContainer>
       <div className="footer-copyright text-center py-3">
         <MDBContainer fluid>
           &copy; {new Date().getFullYear()} Copyright:{" "}
-          <a href="https://www.mdbootstrap.com"> MDBootstrap.com </a>
+          <a href="https://alexandra-hionis.github.io/"> AH Developments </a>
         </MDBContainer>
       </div>
     </MDBFooter>

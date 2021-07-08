@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./styles.css";
 import { Container, Row, Col } from "react-bootstrap";
-import Services from "../../pages/services";
 
 function HomePageContainer() {
   // If you are a
@@ -11,23 +10,21 @@ function HomePageContainer() {
   //                 link it to a career, you've come to the right place!
   return (
     <section id="home">
-      <div className="topSection" valign="top">
+      <div>
         <Row className="no-gutters">
-          <Col md={6} className="no-gutters">
-            <div>
-              <div>
-                <p> My name is Sydney Peters</p>
-              </div>
-              <div>
-                <h1 id="home-header">
-                  I specialize in college and career prep services.
-                </h1>
-                <h4 className="home-header-subfont">
-                  Trying to choose a college, a major, or a career? You've come
-                  to the right place!
-                </h4>
-              </div>
-              <br></br>
+          <Col md={1} className="no-gutters"></Col>
+          <Col md={5} className="no-gutters">
+            <div className="hi">
+              <p> My name is Sydney Peters</p>
+
+              <h1 id="home-header">
+                I specialize in college and career prep services.
+              </h1>
+              <h4 className="home-header-subfont">
+                Trying to choose a college, a major, or a career? You've come to
+                the right place!
+              </h4>
+
               <div>
                 <h4 className="home-header-subfont">Get started</h4>
                 <div>
@@ -43,25 +40,19 @@ function HomePageContainer() {
               </div>
             </div>
           </Col>
-          <Col md={6} className="no-gutters">
+          <Col md={5} className="no-gutters">
             <div id="client-img">
               <img
                 alt="img of sydney peters"
-                src={process.env.PUBLIC_URL + "/images/SP-photo.png"}
+                src={process.env.PUBLIC_URL + "/images/SP-img.png"}
                 width="85%"
                 height="auto"
               />
             </div>
           </Col>
+          <Col md={1} className="no-gutters"></Col>
         </Row>
       </div>
-      <Row className="no-gutters">
-        <Col md={12} className="no-gutters">
-          <div className="bottomSection">
-            <h1>SHiuahs aodhasoidh oaisdjhaioshdoad</h1>
-          </div>
-        </Col>
-      </Row>
     </section>
   );
 }

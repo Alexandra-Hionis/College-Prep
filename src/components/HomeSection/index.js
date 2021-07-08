@@ -12,31 +12,41 @@ function HomePageContainer() {
     <section id="home">
       <div>
         <Row>
-          <Col md={1}></Col>
-          <Col md={5}>
-            <div className="title">
-              <p id="name"> My name is Sydney Peters</p>
+          <Col lg={1}></Col>
+          <Col lg={5}>
+            <div class="text-container">
+              <div className="title">
+                <p id="name">
+                  {" "}
+                  My name is <span id="name-span">Sydney Peters</span>
+                </p>
 
-              <h1 id="home-header">
-                I specialize in college and career prep services.
-              </h1>
-              <h4 id="title-header" className="home-header-subfont">
-                Trying to choose a college, a major, or a career? You've come to
-                the right place!
-              </h4>
-            </div>
-            <div>
-              <div id="get-started">
-                <h4 className="home-header-subfont">Get started</h4>
+                <h1 id="home-header">
+                  I specialize in{" "}
+                  <span className="title-span">college prep </span> and{" "}
+                  <span className="title-span">career counselling</span>{" "}
+                  services.
+                </h1>
+                <h4 id="title-header" className="home-header-subfont">
+                  Trying to choose a college, a major, or a career? You've come
+                  to the right place!
+                </h4>
               </div>
-              <div id="get-started-btn">
-                <Link to="/services">
-                  <Button variant="outline-dark">Services</Button>{" "}
-                </Link>
+              <div>
+                <div id="get-started">
+                  <h4 className="home-header-subfont">Get started</h4>
+                </div>
+                <div id="get-started-btn">
+                  <Link to="/services">
+                    <Button className="custom-btn" variant="outline-dark">
+                      Services
+                    </Button>{" "}
+                  </Link>
+                </div>
               </div>
             </div>
           </Col>
-          <Col md={5}>
+          <Col lg={5}>
             <div id="client-img">
               <img
                 alt="img of sydney peters"
@@ -46,7 +56,7 @@ function HomePageContainer() {
               />
             </div>
           </Col>
-          <Col md={1}></Col>
+          <Col lg={1}></Col>
         </Row>
       </div>
     </section>

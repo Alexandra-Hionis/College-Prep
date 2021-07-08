@@ -23,8 +23,21 @@ section {
   margin-bottom: -2px;
 }
 
+#name-span {
+  color: #a29e9b;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.title-span {
+  color: black;
+  font-weight: bold;
+}
+
 #home-header {
-  font-size: 2em;
+  font-size: 30px;
+  line-height: 52px;
+  letter-spacing: -0.64px;
 }
 #title-header {
   font-size: 18px;
@@ -38,4 +51,13 @@ section {
 #get-started-btn {
   display: flex;
   justify-content: center;
+}
+
+.custom-btn {
+  background-color: #cec7c1;
+}
+
+.custom-btn:hover {
+  background-color: white;
+  color: black;
 }

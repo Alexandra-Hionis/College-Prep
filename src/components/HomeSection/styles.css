@@ -3,7 +3,7 @@ section {
 }
 
 .title {
-  margin-top: 80px;
+  margin-top: 60px;
   align-content: left;
   word-wrap: none;
 }
@@ -30,7 +30,7 @@ section {
   font-size: 18px;
 }
 #get-started {
-  margin-top: 10px;
+  margin-top: 17px;
   display: flex;
   justify-content: center;
 }

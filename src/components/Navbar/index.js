@@ -15,7 +15,7 @@ function Nav() {
         <ReactBootstrap.Navbar.Brand href="/services">
           <img
             alt=""
-            src={process.env.PUBLIC_URL + "/images/C&C-Prep.png"}
+            src={process.env.PUBLIC_URL + "/images/logo.png"}
             to="/services"
             width="60"
             height="60"

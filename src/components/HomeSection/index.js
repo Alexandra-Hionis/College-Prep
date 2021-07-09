@@ -4,10 +4,6 @@ import "./styles.css";
 import { Row, Col, Button } from "react-bootstrap";
 
 function HomePageContainer() {
-  // If you are a
-  //                 student or graduate undecided about what to study, what career
-  //                 fits you best, or have a major in mind but don’t know how to
-  //                 link it to a career, you've come to the right place!
   return (
     <section id="home">
       <div>
@@ -34,7 +30,12 @@ function HomePageContainer() {
               </div>
               <div>
                 <div id="get-started">
-                  <h4 className="home-header-subfont">Get started</h4>
+                  <h4
+                    className="home-header-subfont"
+                    style={{ fontWeight: "bold" }}
+                  >
+                    Get started
+                  </h4>
                 </div>
                 <div id="get-started-btn">
                   <Link to="/services">

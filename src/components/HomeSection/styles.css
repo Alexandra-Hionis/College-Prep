@@ -1,5 +1,6 @@
 section {
   min-height: 53vh; /* minus the height of the footer */
+  text-align: center;
 }
 
 .title {
@@ -36,7 +37,7 @@ section {
 
 #home-header {
   font-size: 30px;
-  line-height: 52px;
+  line-height: 32px;
   letter-spacing: -0.64px;
 }
 #title-header {
@@ -46,6 +47,7 @@ section {
   margin-top: 17px;
   display: flex;
   justify-content: center;
+  color: #a29e9b;
 }
 
 #get-started-btn {

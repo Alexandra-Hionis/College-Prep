@@ -9,10 +9,10 @@ const FooterPage = () => {
         <div>
           <MDBRow>
             <MDBCol md="4">
-              <div className="bottom-welcome-icons">
+              <div>
                 <div>
                   <img
-                    alt=""
+                    alt="graduation icon"
                     src={process.env.PUBLIC_URL + "/images/grad-cap.png"}
                     width="60px"
                     height="60px"
@@ -27,9 +27,9 @@ const FooterPage = () => {
               </div>
             </MDBCol>
             <MDBCol md="4">
-              <div className="bottom-welcome-icons">
+              <div>
                 <img
-                  alt=""
+                  alt="resume icon"
                   src={process.env.PUBLIC_URL + "/images/resume.png"}
                   width="60px"
                   height="60px"
@@ -43,10 +43,10 @@ const FooterPage = () => {
               </div>
             </MDBCol>
             <MDBCol md="4">
-              <div className="bottom-welcome-icons">
+              <div>
                 <div>
                   <img
-                    alt=""
+                    alt="rocketship icon"
                     src={process.env.PUBLIC_URL + "/images/rocketship.png"}
                     width="60px"
                     height="60px"

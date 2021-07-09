@@ -1,8 +1,13 @@
 import React from "react";
 import ServicesHeader from "../components/ServicesHeader";
-import ServicesGrid from "../components/ServicesGrid";
+import ServicesList from "../components/ServicesList";
 
 const Services = () => {
-  return <ServicesHeader></ServicesHeader>;
+  return (
+    <div>
+      <ServicesHeader></ServicesHeader>
+      <ServicesList></ServicesList>
+    </div>
+  );
 };
 export default Services;

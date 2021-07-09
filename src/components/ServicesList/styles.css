@@ -1,11 +1,14 @@
-#icon-border {
+.services-table {
+  margin: 40px 0 70px 0;
+  text-align: center;
+  padding: 15px 0 5px 0;
+  color: black;
+}
+
+.icon-border {
   margin: 5px;
 }
 
-#description-border {
+.description-border {
   margin: 5px;
-}
-.services-table {
-  margin-top: 40px;
-  text-align: center;
 }

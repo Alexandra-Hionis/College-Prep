@@ -51,7 +51,7 @@ function HomePageContainer() {
             <div id="client-img">
               <img
                 alt="img of sydney peters"
-                src={process.env.PUBLIC_URL + "/images/SP-img.png"}
+                src={process.env.PUBLIC_URL + "/images/SPphoto.png"}
                 width="100%"
                 height="auto"
               />

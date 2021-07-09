@@ -5,13 +5,13 @@ import { Container, Row, Col } from "react-bootstrap";
 function ServicesList() {
   return (
     <Container>
-      <div className="services-table">
+      <div className="services-table shadow rounded login-wrap-div">
         {/* Top row */}
         <Row>
-          <Col md={1} id="icon-border"></Col>
+          <Col md={1} className="icon-border"></Col>
 
           {/* Service #1 */}
-          <Col md={5} id="description-border">
+          <Col md={5} className="description-border">
             <Row>
               <Col md={4}>
                 <img
@@ -27,7 +27,7 @@ function ServicesList() {
             </Row>
           </Col>
           {/* Service #2 */}
-          <Col md={5} id="description-border">
+          <Col md={5} className="description-border">
             <Row>
               <Col md={4}>
                 <img
@@ -44,14 +44,14 @@ function ServicesList() {
             </Row>
           </Col>
 
-          <Col md={1} id="description-border"></Col>
+          <Col md={1} className="description-border"></Col>
         </Row>
         {/* Second Row */}
         <Row>
-          <Col md={1} id="icon-border"></Col>
+          <Col md={1} className="icon-border"></Col>
 
           {/* Service #3 */}
-          <Col md={5} id="description-border">
+          <Col md={5} className="description-border">
             <Row>
               <Col md={4}>
                 <img
@@ -68,7 +68,7 @@ function ServicesList() {
             </Row>
           </Col>
           {/* Service #4 */}
-          <Col md={5} id="description-border">
+          <Col md={5} className="description-border">
             <Row>
               <Col md={4}>
                 <img
@@ -84,15 +84,15 @@ function ServicesList() {
             </Row>
           </Col>
 
-          <Col md={1} id="description-border"></Col>
+          <Col md={1} className="description-border"></Col>
         </Row>
 
         {/* Third Row */}
         <Row>
-          <Col md={1} id="icon-border"></Col>
+          <Col md={1} className="icon-border"></Col>
 
           {/* Service #5 */}
-          <Col md={5} id="description-border">
+          <Col md={5} className="description-border">
             <Row>
               <Col md={4}>
                 <img
@@ -109,7 +109,7 @@ function ServicesList() {
             </Row>
           </Col>
           {/* Service #6 */}
-          <Col md={5} id="description-border">
+          <Col md={5} className="description-border">
             <Row>
               <Col md={4}>
                 <img
@@ -126,15 +126,15 @@ function ServicesList() {
             </Row>
           </Col>
 
-          <Col md={1} id="description-border"></Col>
+          <Col md={1} className="description-border"></Col>
         </Row>
 
         {/* Fourth Row */}
         <Row>
-          <Col md={1} id="icon-border"></Col>
+          <Col md={1} className="icon-border"></Col>
 
           {/* Service #7 */}
-          <Col md={5} id="description-border">
+          <Col md={5} className="description-border">
             <Row>
               <Col md={4}>
                 <img
@@ -151,7 +151,7 @@ function ServicesList() {
             </Row>
           </Col>
           {/* Service #8 */}
-          <Col md={5} id="description-border">
+          <Col md={5} className="description-border">
             <Row>
               <Col md={4}>
                 <img
@@ -168,7 +168,7 @@ function ServicesList() {
             </Row>
           </Col>
 
-          <Col md={1} id="description-border"></Col>
+          <Col md={1} className="description-border"></Col>
         </Row>
       </div>
     </Container>

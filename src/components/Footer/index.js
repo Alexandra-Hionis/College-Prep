@@ -13,7 +13,7 @@ const FooterPage = () => {
                 <div>
                   <img
                     alt="graduation icon"
-                    src={process.env.PUBLIC_URL + "/images/grad-cap.png"}
+                    src={process.env.PUBLIC_URL + "/images/cap-white.png"}
                     width="60px"
                     height="60px"
                     className="d-inline-block align-top"
@@ -30,7 +30,7 @@ const FooterPage = () => {
               <div>
                 <img
                   alt="resume icon"
-                  src={process.env.PUBLIC_URL + "/images/resume.png"}
+                  src={process.env.PUBLIC_URL + "/images/resume-white.png"}
                   width="60px"
                   height="60px"
                   className="d-inline-block align-top"
@@ -47,7 +47,7 @@ const FooterPage = () => {
                 <div>
                   <img
                     alt="rocketship icon"
-                    src={process.env.PUBLIC_URL + "/images/rocketship.png"}
+                    src={process.env.PUBLIC_URL + "/images/rocket-white.png"}
                     width="60px"
                     height="60px"
                     className="d-inline-block align-top"

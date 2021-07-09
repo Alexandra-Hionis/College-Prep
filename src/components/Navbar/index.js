@@ -15,10 +15,10 @@ function Nav() {
         <ReactBootstrap.Navbar.Brand href="/">
           <img
             alt=""
-            src={process.env.PUBLIC_URL + "/images/C&C-Prep.png"}
+            src={process.env.PUBLIC_URL + "/images/logoo.png"}
             to="/services"
-            width="60"
-            height="60"
+            width="80"
+            height="80"
             className="d-inline-block align-top"
           />
         </ReactBootstrap.Navbar.Brand>

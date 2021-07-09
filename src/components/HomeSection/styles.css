@@ -22,13 +22,16 @@ section {
   font-size: 14px;
   margin-top: 20px;
   margin-bottom: -2px;
-}
-
-#name-span {
-  color: #9fc7aa;
+  color: #ad757e;
   font-weight: bold;
   font-size: 19px;
 }
+
+/* #name-span {
+  color: #AD757E;
+  font-weight: bold;
+  font-size: 19px;
+} */
 
 .title-span {
   color: black;
@@ -47,7 +50,7 @@ section {
   margin-top: 17px;
   display: flex;
   justify-content: center;
-  color: #9fc7aa;
+  color: #ad757e;
 }
 
 #get-started-btn {
@@ -56,7 +59,7 @@ section {
 }
 
 .custom-btn {
-  background-color: #9fc7aa;
+  background-color: #c9a7aa;
 }
 
 .custom-btn:hover {

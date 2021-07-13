@@ -10,6 +10,7 @@ function AboutHeader() {
           <Col lg={2}></Col>
           <Col lg={8}>
             <h1 id="about-header">About</h1>
+            <p id="about-p">Get to know me!</p>
           </Col>
           <Col lg={2}></Col>
         </Row>

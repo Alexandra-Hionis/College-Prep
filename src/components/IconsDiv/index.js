@@ -12,7 +12,7 @@ const IconsDiv = () => {
               <div>
                 <img
                   alt="graduation icon"
-                  src={process.env.PUBLIC_URL + "/images/cap-white.png"}
+                  src={process.env.PUBLIC_URL + "/images/grad-cap.png"}
                   width="60px"
                   height="60px"
                   className="d-inline-block align-top"
@@ -29,7 +29,7 @@ const IconsDiv = () => {
             <div>
               <img
                 alt="resume icon"
-                src={process.env.PUBLIC_URL + "/images/resume-white.png"}
+                src={process.env.PUBLIC_URL + "/images/resume.png"}
                 width="60px"
                 height="60px"
                 className="d-inline-block align-top"
@@ -45,7 +45,7 @@ const IconsDiv = () => {
               <div>
                 <img
                   alt="rocketship icon"
-                  src={process.env.PUBLIC_URL + "/images/rocket-white.png"}
+                  src={process.env.PUBLIC_URL + "/images/rocketship.png"}
                   width="60px"
                   height="60px"
                   className="d-inline-block align-top"

@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import IconsDiv from "../components/IconsDiv";
 import ServicesHeader from "../components/ServicesHeader";
 import ServicesList from "../components/ServicesList";
+import AboutHeader from "../components/AboutHeader";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
 
       <ServicesHeader></ServicesHeader>
       <ServicesList></ServicesList>
+      <AboutHeader></AboutHeader>
 
       <Footer></Footer>
     </div>

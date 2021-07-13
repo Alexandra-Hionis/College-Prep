@@ -10,7 +10,6 @@ function Nav() {
         className="fixed-top"
         collapseOnSelect
         expand="lg"
-        bg="white"
         variant="light"
       >
         <ReactBootstrap.Navbar.Brand href="/">
@@ -28,13 +27,13 @@ function Nav() {
           <ReactBootstrap.Nav className="mr-auto"></ReactBootstrap.Nav>
           <ReactBootstrap.Nav>
             <ReactBootstrap.Nav.Link href="/">Home</ReactBootstrap.Nav.Link>
-            <ReactBootstrap.Nav.Link href="/services">
+            <ReactBootstrap.Nav.Link href="#services">
               Services
             </ReactBootstrap.Nav.Link>
-            <ReactBootstrap.Nav.Link eventKey={1} href="/about">
+            <ReactBootstrap.Nav.Link eventKey={1} href="#about">
               About
             </ReactBootstrap.Nav.Link>
-            <ReactBootstrap.Nav.Link eventKey={2} href="/contact">
+            <ReactBootstrap.Nav.Link eventKey={2} href="#contact">
               Contact
             </ReactBootstrap.Nav.Link>
           </ReactBootstrap.Nav>

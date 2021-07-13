@@ -1,17 +1,18 @@
 import React from "react";
-// import Header from "../components/Header";
-import HomeSection from "../components/HomeSection";
+// import HomeSection from "../components/HomeSection";
 import Footer from "../components/Footer";
 import IconsDiv from "../components/IconsDiv";
 import ServicesHeader from "../components/ServicesHeader";
 import ServicesList from "../components/ServicesList";
 import AboutHeader from "../components/AboutHeader";
 import About from "../components/About";
+import Carousel from "../components/Carousel";
 
 const Home = () => {
   return (
     <div>
-      <HomeSection />
+      {/* <HomeSection /> */}
+      <Carousel />
       <IconsDiv></IconsDiv>
 
       <ServicesHeader></ServicesHeader>

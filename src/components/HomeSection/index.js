@@ -1,7 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./styles.css";
-import { Row, Col, Button } from "react-bootstrap";
+import { Row, Col, Button, Container } from "react-bootstrap";
 
 function HomePageContainer() {
   return (
@@ -15,13 +14,19 @@ function HomePageContainer() {
       }}
     >
       <div>
-        <Row>
-          <Col lg={2}></Col>
-          <Col lg={8}>
-            <h1 id="home-page-header">College Prep and Career Counseling</h1>
-          </Col>
-          <Col lg={2}></Col>
-        </Row>
+        <Container>
+          <Row>
+            <Col md={2}></Col>
+            <Col md={8}>
+              <div style={{ verticalAlign: "middle" }}>
+                <h1 id="home-page-header">
+                  College Prep and Career Counseling
+                </h1>
+              </div>
+            </Col>
+            <Col md={2}></Col>
+          </Row>
+        </Container>
       </div>
     </div>
   );

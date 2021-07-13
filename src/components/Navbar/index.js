@@ -7,6 +7,7 @@ function Nav() {
   return (
     <>
       <ReactBootstrap.Navbar
+        className="fixed-top"
         collapseOnSelect
         expand="lg"
         bg="white"

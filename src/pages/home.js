@@ -7,7 +7,8 @@ import ServicesList from "../components/ServicesList";
 import AboutHeader from "../components/AboutHeader";
 import About from "../components/About";
 import Carousel from "../components/Carousel";
-
+import ContactHeader from "../components/ContactHeader";
+import Contact from "../components/Contact";
 const Home = () => {
   return (
     <div>
@@ -19,7 +20,8 @@ const Home = () => {
       <ServicesList></ServicesList>
       <AboutHeader></AboutHeader>
       <About></About>
-
+      <ContactHeader></ContactHeader>
+      <Contact></Contact>
       <Footer></Footer>
     </div>
   );

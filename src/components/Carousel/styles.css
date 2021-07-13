@@ -1,4 +1,18 @@
 .carousel-caption {
   top: 50%;
   transform: translateY(-50%);
+  font-size: 4vw;
+  padding: 5px;
+  position: absolute;
+  right: 5%;
+  bottom: 0rem;
+  left: 5%;
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
+  color: #fff;
+  text-align: center;
+}
+
+.d-block {
+  height: 100%;
 }

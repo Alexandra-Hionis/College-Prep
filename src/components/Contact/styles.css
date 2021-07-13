@@ -1,0 +1,20 @@
+.contact-info {
+  margin-top: 18px;
+}
+
+.icon {
+  margin-top: 10px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.fresh {
+  border: 2px red solid;
+}
+
+.fresher {
+  border: 2px purple solid;
+}

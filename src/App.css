@@ -3,6 +3,13 @@
   padding: 0px;
   overflow-x: hidden;
 }
+
+a:link {
+  color: black;
+}
+a:visited {
+  color: black;
+}
 .App {
   font-family: "Roboto", sans-serif;
 }

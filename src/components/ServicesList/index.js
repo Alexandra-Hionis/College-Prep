@@ -22,7 +22,7 @@ function ServicesList() {
                 />
               </Col>
               <Col md={8}>
-                Resume writing and development and personal brand statements
+                Resume writing and development, and personal branding
               </Col>
             </Row>
           </Col>
@@ -38,8 +38,8 @@ function ServicesList() {
                 />
               </Col>
               <Col md={8}>
-                Help with college essays. Including topic selection and
-                revisions
+                Help with college essays and personal statements, including
+                topic selection, formatting, structure, and content
               </Col>
             </Row>
           </Col>
@@ -120,8 +120,8 @@ function ServicesList() {
                 />
               </Col>
               <Col md={8}>
-                Sending AP and Dual Enrollment scores to college options and
-                transcript review
+                Sending AP and Dual Enrollment scores to different college
+                options
               </Col>
             </Row>
           </Col>
@@ -163,7 +163,8 @@ function ServicesList() {
               </Col>
               <Col md={8}>
                 We will tackle any other related issues or topics depending on
-                the situation
+                the situation; if you do not see a service provided - please
+                inquire!
               </Col>
             </Row>
           </Col>

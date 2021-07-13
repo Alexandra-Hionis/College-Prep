@@ -3,16 +3,18 @@ import React from "react";
 import HomeSection from "../components/HomeSection";
 import Footer from "../components/Footer";
 import IconsDiv from "../components/IconsDiv";
-// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-// import logo from "./C&C-Prep.png";
-
-// import { Container, Row, Col } from "react-bootstrap";
+import ServicesHeader from "../components/ServicesHeader";
+import ServicesList from "../components/ServicesList";
 
 const Home = () => {
   return (
     <div>
       <HomeSection />
       <IconsDiv></IconsDiv>
+
+      <ServicesHeader></ServicesHeader>
+      <ServicesList></ServicesList>
+
       <Footer></Footer>
     </div>
   );

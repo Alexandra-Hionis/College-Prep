@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <div>
+        <div className="background-color">
           <Switch>
             <Wrapper>
               <Route exact path="/services" component={Services} />

@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a personal business website for a client specializing in college and career prep. Built via React.js with ReactBootstrap framework. This is one of my first freelance projects.
+This is a personal business website for a client specializing in college prep and professional development for highschool and college students, or anyone looking to enhance their resume. Built via React.js with ReactBootstrap framework. This is one of my first freelance projects.
 
 ## Table of Contents
 

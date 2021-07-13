@@ -12,7 +12,9 @@ const CarouselHome = () => {
           alt="First slide"
         />
         <Carousel.Caption>
-          <p className="carousel-caption">College Prep and Career Counseling</p>
+          <p className="carousel-caption">
+            College Prep and Professional Development
+          </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -23,7 +25,9 @@ const CarouselHome = () => {
         />
 
         <Carousel.Caption>
-          <p className="carousel-caption">College Prep and Career Counseling</p>
+          <p className="carousel-caption">
+            College Prep and Professional Development
+          </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -34,7 +38,9 @@ const CarouselHome = () => {
         />
 
         <Carousel.Caption>
-          <p className="carousel-caption">College Prep and Career Counseling</p>
+          <p className="carousel-caption">
+            College Prep and Professional Development
+          </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -45,7 +51,9 @@ const CarouselHome = () => {
         />
 
         <Carousel.Caption>
-          <p className="carousel-caption">College Prep and Career Counseling</p>
+          <p className="carousel-caption">
+            College Prep and Professional Development
+          </p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

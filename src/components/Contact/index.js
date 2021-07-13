@@ -85,8 +85,8 @@ function Contact() {
 
         <Col lg={6}>
           <img
-            alt="img of sydney peters"
-            src={process.env.PUBLIC_URL + "/images/logoo.png"}
+            alt="logo"
+            src={process.env.PUBLIC_URL + "/images/logo.png"}
             width="250px"
             height="250px"
             className="d-inline-block align-top"

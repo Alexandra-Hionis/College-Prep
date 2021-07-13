@@ -1,5 +1,4 @@
 import React from "react";
-// import HomeSection from "../components/HomeSection";
 import Footer from "../components/Footer";
 import IconsDiv from "../components/IconsDiv";
 import ServicesHeader from "../components/ServicesHeader";
@@ -12,7 +11,6 @@ import Contact from "../components/Contact";
 const Home = () => {
   return (
     <div>
-      {/* <HomeSection /> */}
       <Carousel />
       <IconsDiv></IconsDiv>
 

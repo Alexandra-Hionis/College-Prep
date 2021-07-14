@@ -21,7 +21,7 @@ const CarouselHome = () => {
         <img
           className="d-block w-100"
           src={process.env.PUBLIC_URL + "/images/background3.png"}
-          alt="Third slide"
+          alt="Second slide"
         />
 
         <Carousel.Caption>
@@ -47,7 +47,7 @@ const CarouselHome = () => {
         <img
           className="d-block w-100"
           src={process.env.PUBLIC_URL + "/images/background5.png"}
-          alt="Third slide"
+          alt="Fourth slide"
         />
 
         <Carousel.Caption>

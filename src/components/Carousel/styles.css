@@ -16,3 +16,14 @@
 .d-block {
   height: 100%;
 }
+.carousel-control-prev-icon {
+  visibility: hidden;
+}
+
+.carousel-control-next-icon {
+  visibility: hidden;
+}
+
+.sr-only {
+  visibility: hidden;
+}

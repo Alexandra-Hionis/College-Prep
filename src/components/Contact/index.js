@@ -20,8 +20,8 @@ function Contact() {
             </Col>
             <Col lg={7}>
               <div className="contact-info">
-                <a href="mailto:SydneyVPeters@gmail.com">
-                  SydneyVPeters@gmail.com
+                <a class="contact-link" href="mailto:SydneyVPeters@gmail.com">
+                  sydneyvpeters@gmail.com
                 </a>
               </div>
             </Col>
@@ -40,7 +40,13 @@ function Contact() {
             </Col>
             <Col lg={7}>
               <div className="contact-info">
-                <a href="tel:4847649180">484-764-9180</a>
+                <a
+                  className="contact-link"
+                  style={{ textDecoration: "none", textAlign: "left" }}
+                  href="tel:4847649180"
+                >
+                  484-764-9180
+                </a>
               </div>
             </Col>
           </Row>
@@ -58,8 +64,11 @@ function Contact() {
             </Col>
             <Col lg={7}>
               <div className="contact-info">
-                <a href="https://www.linkedin.com/in/sydneypeters/">
-                  Sydney Peters LinkedIn
+                <a
+                  style={{ textDecoration: "none" }}
+                  href="https://www.linkedin.com/in/sydneypeters/"
+                >
+                  LinkedIn
                 </a>
               </div>
             </Col>

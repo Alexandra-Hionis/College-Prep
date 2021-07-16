@@ -18,3 +18,8 @@
 .fresher {
   border: 2px purple solid;
 }
+
+.contact-link {
+  text-decoration: none;
+  text-align: left;
+}

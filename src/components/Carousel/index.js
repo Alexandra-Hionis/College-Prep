@@ -4,7 +4,13 @@ import "./styles.css";
 
 const CarouselHome = () => {
   return (
-    <Carousel>
+    <Carousel
+      fade
+      autoPlay={true}
+      interval={3000}
+      controls={false}
+      indicators={false}
+    >
       <Carousel.Item>
         <img
           className="d-block w-100"

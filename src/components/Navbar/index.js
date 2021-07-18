@@ -17,8 +17,8 @@ function Nav() {
             alt=""
             src={process.env.PUBLIC_URL + "/images/logo.png"}
             to="/services"
-            width="50"
-            height="50"
+            width="70"
+            height="70"
             className="d-inline-block align-top"
           />
         </ReactBootstrap.Navbar.Brand>

@@ -4,12 +4,15 @@ import { Row, Col, Container } from "react-bootstrap";
 
 function Contact() {
   return (
-    <Container className="text-center">
+    <Container>
       <Row>
         <Col lg={6} className="contact-info">
           <Row>
             <Col lg={3}></Col>
-            <Col lg={2}>
+            <Col
+              lg={2}
+              className="d-flex justify-content-center justify-content-lg-start"
+            >
               <img
                 alt="email icon"
                 src={process.env.PUBLIC_URL + "/images/email.png"}
@@ -18,7 +21,10 @@ function Contact() {
                 className="d-inline-block align-top icon"
               />
             </Col>
-            <Col lg={7}>
+            <Col
+              lg={7}
+              className="d-flex justify-content-center justify-content-lg-start"
+            >
               <div className="contact-info">
                 <a class="contact-link" href="mailto:SydneyVPeters@gmail.com">
                   sydneyvpeters@gmail.com
@@ -29,7 +35,10 @@ function Contact() {
           <Row>
             <Col lg={3}></Col>
 
-            <Col lg={2}>
+            <Col
+              lg={2}
+              className="d-flex justify-content-center justify-content-lg-start"
+            >
               <img
                 alt="phone icon"
                 src={process.env.PUBLIC_URL + "/images/phone.png"}
@@ -38,11 +47,14 @@ function Contact() {
                 className="d-inline-block align-top icon"
               />
             </Col>
-            <Col lg={7}>
+            <Col
+              lg={7}
+              className="d-flex justify-content-center justify-content-lg-start"
+            >
               <div className="contact-info">
                 <a
                   className="contact-link"
-                  style={{ textDecoration: "none", textAlign: "left" }}
+                  style={{ textDecoration: "none" }}
                   href="tel:4847649180"
                 >
                   484-764-9180
@@ -53,7 +65,10 @@ function Contact() {
           <Row>
             <Col lg={3}></Col>
 
-            <Col lg={2}>
+            <Col
+              lg={2}
+              className="d-flex justify-content-center justify-content-lg-start"
+            >
               <img
                 alt="linkedin icon"
                 src={process.env.PUBLIC_URL + "/images/linkedin copy.png"}
@@ -62,7 +77,10 @@ function Contact() {
                 className="d-inline-block align-top icon"
               />
             </Col>
-            <Col lg={7}>
+            <Col
+              lg={7}
+              className="d-flex justify-content-center justify-content-lg-start"
+            >
               <div className="contact-info">
                 <a
                   style={{ textDecoration: "none" }}
@@ -75,16 +93,22 @@ function Contact() {
           </Row>
           <Row>
             <Col lg={3}></Col>
-            <Col lg={2}>
+            <Col
+              lg={2}
+              className="d-flex justify-content-center justify-content-lg-start"
+            >
               <img
                 alt="location icon"
                 src={process.env.PUBLIC_URL + "/images/location.png"}
                 width="50px"
                 height="50px"
-                className="d-inline-block align-top icon"
+                className="icon"
               />
             </Col>
-            <Col lg={7}>
+            <Col
+              lg={7}
+              className="d-flex justify-content-center justify-content-lg-start"
+            >
               <div className="contact-info">
                 <p>Greater Philadelphia Area</p>
               </div>
@@ -92,7 +116,7 @@ function Contact() {
           </Row>
         </Col>
 
-        <Col lg={6}>
+        <Col lg={6} className="text-center">
           <img
             alt="logo"
             src={process.env.PUBLIC_URL + "/images/logo.png"}

@@ -7,7 +7,7 @@ const CarouselHome = () => {
     <Carousel
       fade
       autoPlay={true}
-      interval={3000}
+      interval={2000}
       controls={false}
       indicators={false}
     >

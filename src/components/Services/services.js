@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ServicesTitle from "./servicesTitle";
 function ServicesList() {
   return (
-    <Container id="services">
+    <Container>
       <div>
         {" "}
         <ServicesTitle />

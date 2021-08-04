@@ -2,10 +2,11 @@
   border: 2px black solid;
 }
 
-#about-header {
+#about-title {
   color: black;
   margin-top: 60px;
   text-align: center;
+  padding-top: 20px;
 }
 
 #about-p {

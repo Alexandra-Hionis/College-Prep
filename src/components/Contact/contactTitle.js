@@ -9,7 +9,7 @@ function ContactHeader() {
         <Row>
           <Col lg={2}></Col>
           <Col lg={8}>
-            <h1 id="contact-header">Contact</h1>
+            <h1 id="contact-title">Contact</h1>
             <p id="contact-p">Get in touch</p>
           </Col>
           <Col lg={2}></Col>

@@ -9,7 +9,7 @@ function AboutHeader() {
         <Row>
           <Col lg={2}></Col>
           <Col lg={8}>
-            <h1 id="about-header">About</h1>
+            <h1 id="about-title">About</h1>
             <p id="about-p">Get to know me!</p>
           </Col>
           <Col lg={2}></Col>

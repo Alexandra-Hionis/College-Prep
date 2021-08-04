@@ -1,12 +1,12 @@
 import React from "react";
 import "./styles.css";
 import { Row, Col, Container } from "react-bootstrap";
-import ContactHeader from "./contactTitle";
+import ContactTitle from "./contactTitle";
 
 function Contact() {
   return (
     <Container>
-      <ContactHeader />
+      <ContactTitle />
       <Row>
         <Col lg={6} className="contact-info">
           <Row>

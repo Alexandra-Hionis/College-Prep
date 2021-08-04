@@ -4,12 +4,12 @@ import { Row, Col, Container } from "react-bootstrap";
 
 function ServicesHeader() {
   return (
-    <Container id="services">
+    <Container>
       <div>
         <Row>
           <Col lg={2}></Col>
           <Col lg={8}>
-            <h1 id="services-header">Services</h1>
+            <h1 id="services-title">Services</h1>
             <p id="services-p">
               Whether you are a high school student, college graduate or a
               hardworking adult who is undecided about your future, what to

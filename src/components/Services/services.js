@@ -1,11 +1,15 @@
 import React from "react";
 import "./styles.css";
 import { Container, Row, Col } from "react-bootstrap";
-
+import ServicesTitle from "./servicesTitle";
 function ServicesList() {
   return (
-    <Container>
-      <div className="services-table shadow rounded login-wrap-div">
+    <Container id="services">
+      <div>
+        {" "}
+        <ServicesTitle />
+      </div>
+      <div className="services-table shadow rounded">
         {/* Top row */}
         <Row>
           <Col sm={1} className="icon-border"></Col>

@@ -2,7 +2,13 @@ import "./App.css";
 import "./index.js";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Home from "./pages/home";
+import React from "react";
+import Home from "./components/Home";
+import IconsDiv from "./components/IconsDiv";
+import Services from "./components/Services/services";
+import About from "./components/About/about";
+import Contact from "./components/Contact/contact";
+import Footer from "./components/Footer";
 
 function Wrapper(props) {
   return (
@@ -22,6 +28,12 @@ function App() {
           <Switch>
             <Wrapper>
               <Route exact path="/" component={Home} />
+
+              <IconsDiv />
+              <Services />
+              <About />
+              <Contact />
+              <Footer />
             </Wrapper>
           </Switch>
         </div>

@@ -4,7 +4,7 @@
   overflow-x: hidden;
 }
 body {
-  padding-top: 100px;
+  padding-top: 90px;
 }
 a:link {
   color: black;
@@ -17,5 +17,6 @@ a:visited {
 }
 
 .background-color {
-  background-color: #f9f5f2;
+  /* background-color: #f9f5f2; */
+  background-color: white;
 }

@@ -20,8 +20,8 @@ const IconsDiv = () => {
               </div>
 
               <p>
-                I help highschool graduates, university graduates and adults of
-                all ages succeed.
+                I help highschool graduates, university graduates and
+                individuals of any age succeed.
               </p>
             </div>
           </Col>
@@ -52,7 +52,7 @@ const IconsDiv = () => {
                 />
               </div>
 
-              <p>Help youself or your child succeed! </p>
+              <p>Achieve college admission or professional goals! </p>
             </div>
           </Col>
         </Row>

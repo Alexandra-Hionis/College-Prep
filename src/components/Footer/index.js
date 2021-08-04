@@ -9,7 +9,7 @@ const FooterPage = () => {
         <MDBContainer fluid>
           &copy; {new Date().getFullYear()} Copyright:{" "}
           {/* <a href="https://alexandra-hionis.github.io/"> AH Developments </a> */}
-          <a href=""> AH Developments </a>
+          <a href=""> AH Websites </a>
           {/* <img
             href="https://alexandra-hionis.github.io/"
             src={process.env.PUBLIC_URL + "/images/ah-logo.png"}

@@ -1,0 +1,30 @@
+#services-title {
+  color: black;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#services-p {
+  text-align: center;
+}
+
+.services-table {
+  margin: 40px 0 70px 0;
+  text-align: center;
+  padding: 15px 0 5px 0;
+  color: black;
+  background-color: white;
+}
+
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.icon-border {
+  margin: 5px;
+}
+
+.description-border {
+  margin: 5px;
+}

@@ -8,7 +8,7 @@ const FooterPage = () => {
       <div className="footer-copyright text-center py-3">
         <Container fluid>
           &copy; {new Date().getFullYear()} Copyright:{" "}
-          <a href=""> AH Websites </a>
+          <a href="https://alexandra-hionis.herokuapp.com/"> AH Websites </a>
         </Container>
       </div>
     </footer>
